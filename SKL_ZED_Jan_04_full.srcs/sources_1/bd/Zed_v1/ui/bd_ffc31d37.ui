@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.908619",
+   "Default View_TopLeft":"-168,-92",
+   "DisplayPinAutomationMissing":"1",
+   "DisplayTieOff":"1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port S_AXIS -pg 1 -lvl 0 -x -20 -y 250 -defaultsOSRD
+preplace port M_AXIS -pg 1 -lvl 3 -x 640 -y 170 -defaultsOSRD
+preplace port port-id_s_axis_tvalid1 -pg 1 -lvl 0 -x -20 -y 270 -defaultsOSRD
+preplace port port-id_s_axis_tready1 -pg 1 -lvl 3 -x 640 -y 190 -defaultsOSRD
+preplace port port-id_aclk -pg 1 -lvl 0 -x -20 -y 330 -defaultsOSRD
+preplace port port-id_aresetn -pg 1 -lvl 0 -x -20 -y 350 -defaultsOSRD
+preplace portBus Din -pg 1 -lvl 0 -x -20 -y 150 -defaultsOSRD
+preplace portBus dout -pg 1 -lvl 3 -x 640 -y 50 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 430 -y 50 -defaultsOSRD -pinBusDir In0 left -pinBusY In0 0L -pinBusDir In1 left -pinBusY In1 20L -pinBusDir dout right -pinBusY dout 0R
+preplace inst xlslice_0 -pg 1 -lvl 1 -x 130 -y 150 -defaultsOSRD -pinBusDir Din left -pinBusY Din 0L -pinBusDir Dout right -pinBusY Dout 0R
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 130 -y 50 -defaultsOSRD -pinBusDir dout right -pinBusY dout 0R
+preplace inst axis_dwidth_converter_0 -pg 1 -lvl 2 -x 430 -y 250 -defaultsOSRD -pinDir S_AXIS left -pinY S_AXIS 0L -pinDir S_AXIS.s_axis_tvalid left -pinY S_AXIS.s_axis_tvalid 20L -pinDir S_AXIS.s_axis_tready left -pinY S_AXIS.s_axis_tready 40L -pinDir S_AXIS.s_axis_tdata left -pinY S_AXIS.s_axis_tdata 60L -pinDir M_AXIS right -pinY M_AXIS 0R -pinDir aclk left -pinY aclk 80L -pinDir aresetn left -pinY aresetn 100L
+preplace netloc mf_fft_overlap_add_0_re_tdata 1 0 1 NJ 150
+preplace netloc xlconcat_0_dout 1 1 2 260 130 580
+preplace netloc s_axis_tvalid1_1 1 0 2 NJ 270 NJ
+preplace netloc axis_dwidth_converter_0_s_axis_tready 1 1 2 280 190 NJ
+preplace netloc aclk_1 1 0 2 NJ 330 NJ
+preplace netloc aresetn_1 1 0 2 NJ 350 NJ
+preplace netloc xlslice_0_Dout 1 1 1 240 70n
+preplace netloc xlconstant_0_dout 1 1 1 N 50
+preplace netloc Conn1 1 0 2 NJ 250 NJ
+preplace netloc Conn2 1 2 1 580 170n
+levelinfo -pg 1 -20 130 430 640
+pagesize -pg 1 -db -bbox -sgen -170 -20 800 410
+"
+}
+0

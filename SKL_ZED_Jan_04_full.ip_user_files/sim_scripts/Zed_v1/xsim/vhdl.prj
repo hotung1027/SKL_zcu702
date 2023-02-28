@@ -1,0 +1,39 @@
+vhdl xil_defaultlib  \
+"../../../bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/sim/Zed_v1_axi_dma_0_0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/sim/Zed_v1_axi_gpio_0_0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_0/sim/Zed_v1_rst_ps7_0_100M_0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/sim/Zed_v1_rst_ps7_0_100M_1.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i0/sim/vicfar_c_addsub_v12_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i1/sim/vicfar_c_addsub_v12_0_i1.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i2/sim/vicfar_c_addsub_v12_0_i2.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i3/sim/vicfar_c_addsub_v12_0_i3.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i4/sim/vicfar_c_addsub_v12_0_i4.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i5/sim/vicfar_c_addsub_v12_0_i5.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i6/sim/vicfar_c_addsub_v12_0_i6.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i7/sim/vicfar_c_addsub_v12_0_i7.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_addsub_v12_0_i8/sim/vicfar_c_addsub_v12_0_i8.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_c_counter_binary_v12_0_i0/sim/vicfar_c_counter_binary_v12_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_div_gen_v5_1_i0/sim/vicfar_div_gen_v5_1_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_div_gen_v5_1_i1/sim/vicfar_div_gen_v5_1_i1.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_div_gen_v5_1_i2/sim/vicfar_div_gen_v5_1_i2.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_div_gen_v5_1_i3/sim/vicfar_div_gen_v5_1_i3.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i0/sim/vicfar_mult_gen_v12_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i1/sim/vicfar_mult_gen_v12_0_i1.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i2/sim/vicfar_mult_gen_v12_0_i2.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i3/sim/vicfar_mult_gen_v12_0_i3.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i4/sim/vicfar_mult_gen_v12_0_i4.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i5/sim/vicfar_mult_gen_v12_0_i5.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/vicfar_mult_gen_v12_0_i6/sim/vicfar_mult_gen_v12_0_i6.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_c_addsub_v12_0_i0/sim/mft_overlap_add_2022_c_addsub_v12_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_c_addsub_v12_0_i1/sim/mft_overlap_add_2022_c_addsub_v12_0_i1.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_c_addsub_v12_0_i2/sim/mft_overlap_add_2022_c_addsub_v12_0_i2.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_c_addsub_v12_0_i3/sim/mft_overlap_add_2022_c_addsub_v12_0_i3.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_c_addsub_v12_0_i4/sim/mft_overlap_add_2022_c_addsub_v12_0_i4.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_c_counter_binary_v12_0_i0/sim/mft_overlap_add_2022_c_counter_binary_v12_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_cmpy_v6_0_i0/sim/mft_overlap_add_2022_cmpy_v6_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_mult_gen_v12_0_i0/sim/mft_overlap_add_2022_mult_gen_v12_0_i0.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_mult_gen_v12_0_i1/sim/mft_overlap_add_2022_mult_gen_v12_0_i1.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_mult_gen_v12_0_i2/sim/mft_overlap_add_2022_mult_gen_v12_0_i2.vhd" \
+"../../../bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/mft_overlap_add_2022_xfft_v9_1_i0/sim/mft_overlap_add_2022_xfft_v9_1_i0.vhd" \
+
+nosort

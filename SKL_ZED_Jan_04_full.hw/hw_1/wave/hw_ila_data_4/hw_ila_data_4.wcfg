@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="8"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="332"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="array" fp_name="Zed_v1_i/system_ila_0/inst/probe0_1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Zed_v1_i/system_ila_0/inst/probe0_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">probe0_1[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">i_CMOS_Data_0_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Zed_v1_i/system_ila_0/inst/probe1_1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Zed_v1_i/system_ila_0/inst/probe1_1</obj_property>
+      <obj_property name="ObjectShortName">probe1_1</obj_property>
+      <obj_property name="label">PL_IO_TriggerCtrl_v1_0_o_Trigger</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group345">
+      <obj_property name="label">slot_0 : PL_SPI_ADC_MasterStr_0_m00_axis : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group346">
+         <obj_property name="label">slot_0 : PL_SPI_ADC_MasterStr_0_m00_axis : T Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tvalid">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axis_tvalid</obj_property>
+            <obj_property name="label">slot_0 : PL_SPI_ADC_MasterStr_0_m00_axis : TVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tready">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axis_tready</obj_property>
+            <obj_property name="label">slot_0 : PL_SPI_ADC_MasterStr_0_m00_axis : TREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tlast">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axis_tlast</obj_property>
+            <obj_property name="label">slot_0 : PL_SPI_ADC_MasterStr_0_m00_axis : TLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tdata">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">Zed_v1_i/system_ila_0/inst/net_slot_0_axis_tdata[15:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axis_tdata[15:0]</obj_property>
+            <obj_property name="label">slot_0 : PL_SPI_ADC_MasterStr_0_m00_axis : TDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

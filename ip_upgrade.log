@@ -1,0 +1,507 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Feb 28 17:33:26 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_SPI_ADC_MasterStr_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Zed_v1_PL_SPI_ADC_MasterStr_0_0 (user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1) from (Rev. 88) to (Rev. 89)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Zed_v1_PL_SPI_ADC_MasterStr_0_0'. These changes may impact your design.
+
+
+-Upgraded port order differs after port 'i_CMOS_Data'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Tue Feb 28 11:21:31 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_SPI_ADC_MasterStr_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Zed_v1_PL_SPI_ADC_MasterStr_0_0 (user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1) from (Rev. 91) to (Rev. 88)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+Parameter 'DATA_SIZE' is no longer present on the upgraded IP 'Zed_v1_PL_SPI_ADC_MasterStr_0_0', and cannot be set to '5000'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1 -user_name Zed_v1_PL_SPI_ADC_MasterStr_0_0
+set_property -dict "\
+  CONFIG.C_M00_AXIS_START_COUNT {2} \
+  CONFIG.C_M00_AXIS_TDATA_WIDTH {16} \
+  CONFIG.C_S00_AXI_ADDR_WIDTH {5} \
+  CONFIG.C_S00_AXI_DATA_WIDTH {32} \
+  CONFIG.Component_Name {Zed_v1_PL_SPI_ADC_MasterStr_0_0} \
+  CONFIG.i_CMOS_Clk.ASSOCIATED_BUSIF {} \
+  CONFIG.i_CMOS_Clk.ASSOCIATED_PORT {} \
+  CONFIG.i_CMOS_Clk.ASSOCIATED_RESET {} \
+  CONFIG.i_CMOS_Clk.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.i_CMOS_Clk.FREQ_HZ {150000000} \
+  CONFIG.i_CMOS_Clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.i_CMOS_Clk.INSERT_VIP {0} \
+  CONFIG.i_CMOS_Clk.PHASE {0.0} \
+  CONFIG.m00_axis.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.m00_axis.FREQ_HZ {150000000} \
+  CONFIG.m00_axis.HAS_TKEEP {0} \
+  CONFIG.m00_axis.HAS_TLAST {1} \
+  CONFIG.m00_axis.HAS_TREADY {1} \
+  CONFIG.m00_axis.HAS_TSTRB {1} \
+  CONFIG.m00_axis.INSERT_VIP {0} \
+  CONFIG.m00_axis.LAYERED_METADATA {undef} \
+  CONFIG.m00_axis.PHASE {0.0} \
+  CONFIG.m00_axis.TDATA_NUM_BYTES {2} \
+  CONFIG.m00_axis.TDEST_WIDTH {0} \
+  CONFIG.m00_axis.TID_WIDTH {0} \
+  CONFIG.m00_axis.TUSER_WIDTH {0} \
+  CONFIG.m00_axis_aclk.ASSOCIATED_BUSIF {m00_axis} \
+  CONFIG.m00_axis_aclk.ASSOCIATED_PORT {} \
+  CONFIG.m00_axis_aclk.ASSOCIATED_RESET {m00_axis_aresetn} \
+  CONFIG.m00_axis_aclk.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.m00_axis_aclk.FREQ_HZ {150000000} \
+  CONFIG.m00_axis_aclk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.m00_axis_aclk.INSERT_VIP {0} \
+  CONFIG.m00_axis_aclk.PHASE {0.0} \
+  CONFIG.m00_axis_aresetn.INSERT_VIP {0} \
+  CONFIG.m00_axis_aresetn.POLARITY {ACTIVE_LOW} \
+  CONFIG.o_SPI_Clk.ASSOCIATED_BUSIF {} \
+  CONFIG.o_SPI_Clk.ASSOCIATED_PORT {} \
+  CONFIG.o_SPI_Clk.ASSOCIATED_RESET {} \
+  CONFIG.o_SPI_Clk.CLK_DOMAIN {Zed_v1_PL_SPI_ADC_MasterStr_0_0_o_SPI_Clk} \
+  CONFIG.o_SPI_Clk.FREQ_HZ {100000000} \
+  CONFIG.o_SPI_Clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.o_SPI_Clk.INSERT_VIP {0} \
+  CONFIG.o_SPI_Clk.PHASE {0.0} \
+  CONFIG.s00_axi.ADDR_WIDTH {5} \
+  CONFIG.s00_axi.ARUSER_WIDTH {0} \
+  CONFIG.s00_axi.AWUSER_WIDTH {0} \
+  CONFIG.s00_axi.BUSER_WIDTH {0} \
+  CONFIG.s00_axi.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.s00_axi.DATA_WIDTH {32} \
+  CONFIG.s00_axi.FREQ_HZ {100000000} \
+  CONFIG.s00_axi.HAS_BRESP {1} \
+  CONFIG.s00_axi.HAS_BURST {0} \
+  CONFIG.s00_axi.HAS_CACHE {0} \
+  CONFIG.s00_axi.HAS_LOCK {0} \
+  CONFIG.s00_axi.HAS_PROT {1} \
+  CONFIG.s00_axi.HAS_QOS {0} \
+  CONFIG.s00_axi.HAS_REGION {0} \
+  CONFIG.s00_axi.HAS_RRESP {1} \
+  CONFIG.s00_axi.HAS_WSTRB {1} \
+  CONFIG.s00_axi.ID_WIDTH {0} \
+  CONFIG.s00_axi.INSERT_VIP {0} \
+  CONFIG.s00_axi.MAX_BURST_LENGTH {1} \
+  CONFIG.s00_axi.NUM_READ_OUTSTANDING {1} \
+  CONFIG.s00_axi.NUM_READ_THREADS {1} \
+  CONFIG.s00_axi.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.s00_axi.NUM_WRITE_THREADS {1} \
+  CONFIG.s00_axi.PHASE {0.0} \
+  CONFIG.s00_axi.PROTOCOL {AXI4LITE} \
+  CONFIG.s00_axi.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s00_axi.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s00_axi.RUSER_WIDTH {0} \
+  CONFIG.s00_axi.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s00_axi.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s00_axi.WUSER_WIDTH {0} \
+  CONFIG.s00_axi_aclk.ASSOCIATED_BUSIF {s00_axi} \
+  CONFIG.s00_axi_aclk.ASSOCIATED_PORT {} \
+  CONFIG.s00_axi_aclk.ASSOCIATED_RESET {s00_axi_aresetn} \
+  CONFIG.s00_axi_aclk.CLK_DOMAIN {/clk_wiz_0_clk_out1} \
+  CONFIG.s00_axi_aclk.FREQ_HZ {100000000} \
+  CONFIG.s00_axi_aclk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.s00_axi_aclk.INSERT_VIP {0} \
+  CONFIG.s00_axi_aclk.PHASE {0.0} \
+  CONFIG.s00_axi_aresetn.INSERT_VIP {0} \
+  CONFIG.s00_axi_aresetn.POLARITY {ACTIVE_LOW} " [get_ips Zed_v1_PL_SPI_ADC_MasterStr_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Feb 27 13:21:45 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_mf_fft_overlap_add_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_mf_fft_overlap_add_0_0 (skltmw05:SysGen:mf_fft_overlap_add:1.0 (Rev. 306060421)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Mon Feb 27 13:21:07 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_mf_fft_overlap_add_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Zed_v1_mf_fft_overlap_add_0_0 (skltmw05:SysGen:mf_fft_overlap_add:1.0) from (Rev. 306060420) to (Rev. 306060421)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Zed_v1_mf_fft_overlap_add_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'im_tdata' vector [31:0] differs from original vector [0:31]
+
+-Upgraded port 're_tdata' vector [31:0] differs from original vector [0:31]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Feb 24 16:46:01 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_mf_fft_overlap_add_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of Zed_v1_mf_fft_overlap_add_0_0 (skltmw05:SysGen:mf_fft_overlap_add:1.0) from (Rev. 306060419) to (Rev. 306060420)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'Zed_v1_mf_fft_overlap_add_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'gateway_in_axis_tdata' vector [31:0] differs from original vector [0:31]
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Fri Feb 24 11:47:18 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_IO_TriggerCtrl_v1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Zed_v1_PL_IO_TriggerCtrl_v1_0_0 (user.org:user:PL_IO_TriggerCtrl_v1_0:1.0) from (Rev. 3) to (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 18:26:00 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_SPI_ADC_MasterStr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_PL_SPI_ADC_MasterStr_0_0 (user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1 (Rev. 91)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 18:26:00 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_IO_TriggerCtrl_v1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Zed_v1_PL_IO_TriggerCtrl_v1_0_0 (user.org:user:PL_IO_TriggerCtrl_v1_0:1.0) from (Rev. 1) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 17:55:52 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_SPI_ADC_MasterStr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Zed_v1_PL_SPI_ADC_MasterStr_0_0 (user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1) from (Rev. 90) to (Rev. 91)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_rst_ps7_0_100M_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_rst_ps7_0_100M_1 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_rst_ps7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_rst_ps7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5 (Rev. 6)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_clk_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_clk_wiz_0_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_SPI_ADC_MasterStr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Zed_v1_PL_SPI_ADC_MasterStr_0_0 (user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1) from (Rev. 89) to (Rev. 90)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date         : Thu Feb 23 15:43:42 2023
+| Host         : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_PL_IO_TriggerCtrl_v1_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of Zed_v1_PL_IO_TriggerCtrl_v1_0_0 (user.org:user:PL_IO_TriggerCtrl_v1_0:1.0) from (Rev. 3) to (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Feb 23 11:01:47 2023
+| Host         : AELAB-RG1OCO4RM running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Zed_v1_vicfar_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Zed_v1_vicfar_0_0 (User_Company:SysGen:vicfar:1.0 (Rev. 299614486)) to Vivado generation flows.
+
