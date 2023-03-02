@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "Zed_v1_rst_ps7_0_100M_1",
-    "cell_name": "rst_ps7_0_100M1",
+    "cell_name": "rst_ps7_0_150M",
     "component_reference": "xilinx.com:ip:proc_sys_reset:5.0",
     "ip_revision": "13",
     "gen_directory": "../../../../../../SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1",
@@ -33,7 +33,7 @@
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],
-        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BASE_BOARD_PART": [ { "value": "xilinx.com:zc702:part0:1.4" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xc7z020" } ],
         "PACKAGE": [ { "value": "clg484" } ],

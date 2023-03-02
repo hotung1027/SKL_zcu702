@@ -1,8 +1,8 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-// Date        : Thu Feb 23 15:44:32 2023
-// Host        : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+// Date        : Wed Mar  1 18:13:32 2023
+// Host        : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
 // Command     : write_verilog -force -mode funcsim -rename_top Zed_v1_clk_wiz_0_0 -prefix
 //               Zed_v1_clk_wiz_0_0_ Zed_v1_clk_wiz_0_0_sim_netlist.v
 // Design      : Zed_v1_clk_wiz_0_0
@@ -16,27 +16,39 @@
 module Zed_v1_clk_wiz_0_0
    (clk_out1,
     clk_out2,
+    resetn,
+    locked,
     clk_in1);
   output clk_out1;
   output clk_out2;
+  input resetn;
+  output locked;
   input clk_in1;
 
   (* IBUF_LOW_PWR *) wire clk_in1;
   wire clk_out1;
   wire clk_out2;
+  wire locked;
+  wire resetn;
 
   Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz inst
        (.clk_in1(clk_in1),
         .clk_out1(clk_out1),
-        .clk_out2(clk_out2));
+        .clk_out2(clk_out2),
+        .locked(locked),
+        .resetn(resetn));
 endmodule
 
 module Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz
    (clk_out1,
     clk_out2,
+    resetn,
+    locked,
     clk_in1);
   output clk_out1;
   output clk_out2;
+  input resetn;
+  output locked;
   input clk_in1;
 
   wire clk_in1;
@@ -47,6 +59,9 @@ module Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz
   wire clk_out2_Zed_v1_clk_wiz_0_0;
   wire clkfbout_Zed_v1_clk_wiz_0_0;
   wire clkfbout_buf_Zed_v1_clk_wiz_0_0;
+  wire locked;
+  wire reset_high;
+  wire resetn;
   wire NLW_mmcm_adv_inst_CLKFBOUTB_UNCONNECTED;
   wire NLW_mmcm_adv_inst_CLKFBSTOPPED_UNCONNECTED;
   wire NLW_mmcm_adv_inst_CLKINSTOPPED_UNCONNECTED;
@@ -60,7 +75,6 @@ module Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz
   wire NLW_mmcm_adv_inst_CLKOUT5_UNCONNECTED;
   wire NLW_mmcm_adv_inst_CLKOUT6_UNCONNECTED;
   wire NLW_mmcm_adv_inst_DRDY_UNCONNECTED;
-  wire NLW_mmcm_adv_inst_LOCKED_UNCONNECTED;
   wire NLW_mmcm_adv_inst_PSDONE_UNCONNECTED;
   wire [15:0]NLW_mmcm_adv_inst_DO_UNCONNECTED;
 
@@ -163,13 +177,18 @@ module Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz
         .DO(NLW_mmcm_adv_inst_DO_UNCONNECTED[15:0]),
         .DRDY(NLW_mmcm_adv_inst_DRDY_UNCONNECTED),
         .DWE(1'b0),
-        .LOCKED(NLW_mmcm_adv_inst_LOCKED_UNCONNECTED),
+        .LOCKED(locked),
         .PSCLK(1'b0),
         .PSDONE(NLW_mmcm_adv_inst_PSDONE_UNCONNECTED),
         .PSEN(1'b0),
         .PSINCDEC(1'b0),
         .PWRDWN(1'b0),
-        .RST(1'b0));
+        .RST(reset_high));
+  LUT1 #(
+    .INIT(2'h1)) 
+    mmcm_adv_inst_i_1
+       (.I0(resetn),
+        .O(reset_high));
 endmodule
 `ifndef GLBL
 `define GLBL

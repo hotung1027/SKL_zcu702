@@ -56,13 +56,13 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// clk_out1__100.00000______0.000______50.0______126.133_____94.994
-// clk_out2__150.00000______0.000______50.0______116.798_____94.994
+// clk_out1__100.00000______0.000______50.0______177.475_____94.994
+// clk_out2__150.00000______0.000______50.0______164.752_____94.994
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
 //----------------------------------------------------------------------------
-// __primary_________100.000____________0.010
+// __primary_________100.000____________0.060
 
 `timescale 1ps/1ps
 
@@ -72,6 +72,9 @@ module Zed_v1_clk_wiz_0_0_clk_wiz
   // Clock out ports
   output        clk_out1,
   output        clk_out2,
+  // Status and control signals
+  input         resetn,
+  output        locked,
   input         clk_in1
  );
   // Input buffering
@@ -118,6 +121,7 @@ wire clk_in2_Zed_v1_clk_wiz_0_0;
   wire        clkout6_unused;
   wire        clkfbstopped_unused;
   wire        clkinstopped_unused;
+  wire        reset_high;
 
   MMCME2_ADV
   #(.BANDWIDTH            ("OPTIMIZED"),
@@ -177,8 +181,10 @@ wire clk_in2_Zed_v1_clk_wiz_0_0;
     .CLKINSTOPPED        (clkinstopped_unused),
     .CLKFBSTOPPED        (clkfbstopped_unused),
     .PWRDWN              (1'b0),
-    .RST                 (1'b0));
+    .RST                 (reset_high));
+  assign reset_high = ~resetn; 
 
+  assign locked = locked_int;
 // Clock Monitor clock assigning
 //--------------------------------------
  // Output buffering

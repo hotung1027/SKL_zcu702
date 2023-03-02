@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-//Date        : Tue Feb 28 17:35:56 2023
+//Date        : Thu Mar  2 16:02:46 2023
 //Host        : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
 //Command     : generate_target Zed_v1_wrapper.bd
 //Design      : Zed_v1_wrapper
@@ -33,28 +33,14 @@ module Zed_v1_wrapper
     FIXED_IO_ps_srstb,
     i_CMOS_Data_0,
     i_Mode_0,
-    i_Over_GPIO_0,
     i_Port_0,
     i_SPI_MISO_0,
-    i_SPI_MISO_1,
-    i_SPI_MISO_2,
-    i_SPI_MISO_3,
     i_Switch_0,
     i_Trigger_0,
-    o_GPIO_0,
     o_LED_0,
     o_SPI_CS_0,
-    o_SPI_CS_1,
-    o_SPI_CS_2,
-    o_SPI_CS_3,
     o_SPI_Clk_0,
-    o_SPI_Clk_1,
-    o_SPI_Clk_2,
-    o_SPI_Clk_3,
-    o_SPI_MOSI_0,
-    o_SPI_MOSI_1,
-    o_SPI_MOSI_2,
-    o_SPI_MOSI_3);
+    o_SPI_MOSI_0);
   inout [14:0]DDR_addr;
   inout [2:0]DDR_ba;
   inout DDR_cas_n;
@@ -78,28 +64,14 @@ module Zed_v1_wrapper
   inout FIXED_IO_ps_srstb;
   input [11:0]i_CMOS_Data_0;
   input i_Mode_0;
-  input i_Over_GPIO_0;
   input i_Port_0;
   input i_SPI_MISO_0;
-  input i_SPI_MISO_1;
-  input i_SPI_MISO_2;
-  input i_SPI_MISO_3;
   input i_Switch_0;
   input i_Trigger_0;
-  output [4:0]o_GPIO_0;
   output [7:0]o_LED_0;
   output o_SPI_CS_0;
-  output o_SPI_CS_1;
-  output o_SPI_CS_2;
-  output o_SPI_CS_3;
   output o_SPI_Clk_0;
-  output o_SPI_Clk_1;
-  output o_SPI_Clk_2;
-  output o_SPI_Clk_3;
   output o_SPI_MOSI_0;
-  output o_SPI_MOSI_1;
-  output o_SPI_MOSI_2;
-  output o_SPI_MOSI_3;
 
   wire [14:0]DDR_addr;
   wire [2:0]DDR_ba;
@@ -124,28 +96,14 @@ module Zed_v1_wrapper
   wire FIXED_IO_ps_srstb;
   wire [11:0]i_CMOS_Data_0;
   wire i_Mode_0;
-  wire i_Over_GPIO_0;
   wire i_Port_0;
   wire i_SPI_MISO_0;
-  wire i_SPI_MISO_1;
-  wire i_SPI_MISO_2;
-  wire i_SPI_MISO_3;
   wire i_Switch_0;
   wire i_Trigger_0;
-  wire [4:0]o_GPIO_0;
   wire [7:0]o_LED_0;
   wire o_SPI_CS_0;
-  wire o_SPI_CS_1;
-  wire o_SPI_CS_2;
-  wire o_SPI_CS_3;
   wire o_SPI_Clk_0;
-  wire o_SPI_Clk_1;
-  wire o_SPI_Clk_2;
-  wire o_SPI_Clk_3;
   wire o_SPI_MOSI_0;
-  wire o_SPI_MOSI_1;
-  wire o_SPI_MOSI_2;
-  wire o_SPI_MOSI_3;
 
   Zed_v1 Zed_v1_i
        (.DDR_addr(DDR_addr),
@@ -171,26 +129,12 @@ module Zed_v1_wrapper
         .FIXED_IO_ps_srstb(FIXED_IO_ps_srstb),
         .i_CMOS_Data_0(i_CMOS_Data_0),
         .i_Mode_0(i_Mode_0),
-        .i_Over_GPIO_0(i_Over_GPIO_0),
         .i_Port_0(i_Port_0),
         .i_SPI_MISO_0(i_SPI_MISO_0),
-        .i_SPI_MISO_1(i_SPI_MISO_1),
-        .i_SPI_MISO_2(i_SPI_MISO_2),
-        .i_SPI_MISO_3(i_SPI_MISO_3),
         .i_Switch_0(i_Switch_0),
         .i_Trigger_0(i_Trigger_0),
-        .o_GPIO_0(o_GPIO_0),
         .o_LED_0(o_LED_0),
         .o_SPI_CS_0(o_SPI_CS_0),
-        .o_SPI_CS_1(o_SPI_CS_1),
-        .o_SPI_CS_2(o_SPI_CS_2),
-        .o_SPI_CS_3(o_SPI_CS_3),
         .o_SPI_Clk_0(o_SPI_Clk_0),
-        .o_SPI_Clk_1(o_SPI_Clk_1),
-        .o_SPI_Clk_2(o_SPI_Clk_2),
-        .o_SPI_Clk_3(o_SPI_Clk_3),
-        .o_SPI_MOSI_0(o_SPI_MOSI_0),
-        .o_SPI_MOSI_1(o_SPI_MOSI_1),
-        .o_SPI_MOSI_2(o_SPI_MOSI_2),
-        .o_SPI_MOSI_3(o_SPI_MOSI_3));
+        .o_SPI_MOSI_0(o_SPI_MOSI_0));
 endmodule

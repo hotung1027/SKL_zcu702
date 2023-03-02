@@ -1,8 +1,8 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
--- Date        : Thu Feb 23 15:44:32 2023
--- Host        : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.1 LTS
+-- Date        : Wed Mar  1 18:13:32 2023
+-- Host        : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
 -- Command     : write_vhdl -force -mode funcsim -rename_top Zed_v1_clk_wiz_0_0 -prefix
 --               Zed_v1_clk_wiz_0_0_ Zed_v1_clk_wiz_0_0_sim_netlist.vhdl
 -- Design      : Zed_v1_clk_wiz_0_0
@@ -18,6 +18,8 @@ entity Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz is
   port (
     clk_out1 : out STD_LOGIC;
     clk_out2 : out STD_LOGIC;
+    resetn : in STD_LOGIC;
+    locked : out STD_LOGIC;
     clk_in1 : in STD_LOGIC
   );
 end Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz;
@@ -28,6 +30,7 @@ architecture STRUCTURE of Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz is
   signal clk_out2_Zed_v1_clk_wiz_0_0 : STD_LOGIC;
   signal clkfbout_Zed_v1_clk_wiz_0_0 : STD_LOGIC;
   signal clkfbout_buf_Zed_v1_clk_wiz_0_0 : STD_LOGIC;
+  signal reset_high : STD_LOGIC;
   signal NLW_mmcm_adv_inst_CLKFBOUTB_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcm_adv_inst_CLKFBSTOPPED_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcm_adv_inst_CLKINSTOPPED_UNCONNECTED : STD_LOGIC;
@@ -41,7 +44,6 @@ architecture STRUCTURE of Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz is
   signal NLW_mmcm_adv_inst_CLKOUT5_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcm_adv_inst_CLKOUT6_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcm_adv_inst_DRDY_UNCONNECTED : STD_LOGIC;
-  signal NLW_mmcm_adv_inst_LOCKED_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcm_adv_inst_PSDONE_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcm_adv_inst_DO_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   attribute BOX_TYPE : string;
@@ -159,13 +161,21 @@ mmcm_adv_inst: unisim.vcomponents.MMCME2_ADV
       DO(15 downto 0) => NLW_mmcm_adv_inst_DO_UNCONNECTED(15 downto 0),
       DRDY => NLW_mmcm_adv_inst_DRDY_UNCONNECTED,
       DWE => '0',
-      LOCKED => NLW_mmcm_adv_inst_LOCKED_UNCONNECTED,
+      LOCKED => locked,
       PSCLK => '0',
       PSDONE => NLW_mmcm_adv_inst_PSDONE_UNCONNECTED,
       PSEN => '0',
       PSINCDEC => '0',
       PWRDWN => '0',
-      RST => '0'
+      RST => reset_high
+    );
+mmcm_adv_inst_i_1: unisim.vcomponents.LUT1
+    generic map(
+      INIT => X"1"
+    )
+        port map (
+      I0 => resetn,
+      O => reset_high
     );
 end STRUCTURE;
 library IEEE;
@@ -176,6 +186,8 @@ entity Zed_v1_clk_wiz_0_0 is
   port (
     clk_out1 : out STD_LOGIC;
     clk_out2 : out STD_LOGIC;
+    resetn : in STD_LOGIC;
+    locked : out STD_LOGIC;
     clk_in1 : in STD_LOGIC
   );
   attribute NotValidForBitStream : boolean;
@@ -188,6 +200,8 @@ inst: entity work.Zed_v1_clk_wiz_0_0_Zed_v1_clk_wiz_0_0_clk_wiz
      port map (
       clk_in1 => clk_in1,
       clk_out1 => clk_out1,
-      clk_out2 => clk_out2
+      clk_out2 => clk_out2,
+      locked => locked,
+      resetn => resetn
     );
 end STRUCTURE;

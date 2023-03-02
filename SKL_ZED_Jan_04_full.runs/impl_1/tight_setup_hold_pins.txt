@@ -1,6 +1,9 @@
 +=============================+=============================+=========================================================================================================+
 | Launch Setup Clock          | Launch Hold Clock           | Pin                                                                                                     |
 +=============================+=============================+=========================================================================================================+
-| clk_out1_Zed_v1_clk_wiz_0_0 | clk_out1_Zed_v1_clk_wiz_0_0 | Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_2/ENBWREN |
+| clk_out1_Zed_v1_clk_wiz_0_0 | clk_out1_Zed_v1_clk_wiz_0_0 | Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/count_reg[0]/D          |
 | clk_out1_Zed_v1_clk_wiz_0_0 | clk_out1_Zed_v1_clk_wiz_0_0 | Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_0/ENBWREN |
+| clk_out1_Zed_v1_clk_wiz_0_0 | clk_out1_Zed_v1_clk_wiz_0_0 | Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_1/ENBWREN |
+| clk_out1_Zed_v1_clk_wiz_0_0 | clk_out1_Zed_v1_clk_wiz_0_0 | Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_2/ENBWREN |
+| clk_out1_Zed_v1_clk_wiz_0_0 | clk_out1_Zed_v1_clk_wiz_0_0 | Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_1/RSTRAMB |
 +-----------------------------+-----------------------------+---------------------------------------------------------------------------------------------------------+

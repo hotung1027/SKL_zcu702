@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1677576968">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1677744174">
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="Zed_v1_wrapper_postroute_physopted.rqs"/>
@@ -129,18 +129,31 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <StratHandle Name="Peformance_AggressiveExplore_Retiming" Flow="Vivado Implementation 2022"/>
     <Step Id="init_design"/>
-    <Step Id="opt_design"/>
-    <Step Id="power_opt_design"/>
-    <Step Id="place_design"/>
-    <Step Id="post_place_power_opt_design"/>
-    <Step Id="phys_opt_design"/>
-    <Step Id="route_design"/>
-    <Step Id="post_route_phys_opt_design"/>
-    <Step Id="write_bitstream"/>
+    <Step Id="opt_design">
+      <Option Id="Directive">6</Option>
+    </Step>
+    <Step Id="power_opt_design" EnableStepBool="1"/>
+    <Step Id="place_design">
+      <Option Id="Directive">2</Option>
+    </Step>
+    <Step Id="post_place_power_opt_design" EnableStepBool="1"/>
+    <Step Id="phys_opt_design">
+      <Option Id="Directive">6</Option>
+    </Step>
+    <Step Id="route_design">
+      <Option Id="Directive">1</Option>
+      <Option Id="MoreOptsStr"><![CDATA[-tns_cleanup]]></Option>
+    </Step>
+    <Step Id="post_route_phys_opt_design" EnableStepBool="1">
+      <Option Id="Directive">3</Option>
+    </Step>
+    <Step Id="write_bitstream">
+      <Option Id="RawbitFileBool">1</Option>
+    </Step>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_PL_SPI_ADC_MasterStr_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_system_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_FDRE_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_axis_data_fifo_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Zed_v1_processing_system7_0_0"/>
 </GenRun>

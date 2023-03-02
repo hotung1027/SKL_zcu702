@@ -18,23 +18,17 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_ps7_
 # IP: bd/Zed_v1/ip/Zed_v1_axi_mem_intercon_0/Zed_v1_axi_mem_intercon_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_axi_mem_intercon_0 || ORIG_REF_NAME==Zed_v1_axi_mem_intercon_0} -quiet] -quiet
 
-# IP: bd/Zed_v1/ip/Zed_v1_PL_SPI_ADAR_v1_0_0_0/Zed_v1_PL_SPI_ADAR_v1_0_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_SPI_ADAR_v1_0_0_0 || ORIG_REF_NAME==Zed_v1_PL_SPI_ADAR_v1_0_0_0} -quiet] -quiet
+# IP: bd/Zed_v1/ip/Zed_v1_PL_IO_TriggerCtrl_v1_0_0/Zed_v1_PL_IO_TriggerCtrl_v1_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_IO_TriggerCtrl_v1_0_0 || ORIG_REF_NAME==Zed_v1_PL_IO_TriggerCtrl_v1_0_0} -quiet] -quiet
 
-# IP: bd/Zed_v1/ip/Zed_v1_PL_SPI_DDS_v1_0_0_0/Zed_v1_PL_SPI_DDS_v1_0_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_SPI_DDS_v1_0_0_0 || ORIG_REF_NAME==Zed_v1_PL_SPI_DDS_v1_0_0_0} -quiet] -quiet
+# IP: bd/Zed_v1/ip/Zed_v1_system_ila_0_0/Zed_v1_system_ila_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_system_ila_0_0 || ORIG_REF_NAME==Zed_v1_system_ila_0_0} -quiet] -quiet
 
-# IP: bd/Zed_v1/ip/Zed_v1_PL_SPI_ADF4159_v1_0_0_0/Zed_v1_PL_SPI_ADF4159_v1_0_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_SPI_ADF4159_v1_0_0_0 || ORIG_REF_NAME==Zed_v1_PL_SPI_ADF4159_v1_0_0_0} -quiet] -quiet
+# IP: bd/Zed_v1/ip/Zed_v1_xlconstant_0_2/Zed_v1_xlconstant_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlconstant_0_2 || ORIG_REF_NAME==Zed_v1_xlconstant_0_2} -quiet] -quiet
 
-# IP: bd/Zed_v1/ip/Zed_v1_ila_0_0/Zed_v1_ila_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_ila_0_0 || ORIG_REF_NAME==Zed_v1_ila_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_ila_3_0/Zed_v1_ila_3_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_ila_3_0 || ORIG_REF_NAME==Zed_v1_ila_3_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_ila_4_0/Zed_v1_ila_4_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_ila_4_0 || ORIG_REF_NAME==Zed_v1_ila_4_0} -quiet] -quiet
+# IP: bd/Zed_v1/ip/Zed_v1_PL_SPI_ADC_MasterStr_0_0/Zed_v1_PL_SPI_ADC_MasterStr_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_SPI_ADC_MasterStr_0_0 || ORIG_REF_NAME==Zed_v1_PL_SPI_ADC_MasterStr_0_0} -quiet] -quiet
 
 # IP: bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/Zed_v1_axi_gpio_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_axi_gpio_0_0 || ORIG_REF_NAME==Zed_v1_axi_gpio_0_0} -quiet] -quiet
@@ -51,53 +45,20 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_rst_
 # IP: bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/Zed_v1_rst_ps7_0_100M_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_rst_ps7_0_100M_1 || ORIG_REF_NAME==Zed_v1_rst_ps7_0_100M_1} -quiet] -quiet
 
-# IP: bd/Zed_v1/ip/Zed_v1_VICFAR_1_0/Zed_v1_VICFAR_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_VICFAR_1_0 || ORIG_REF_NAME==Zed_v1_VICFAR_1_0} -quiet] -quiet
+# IP: bd/Zed_v1/ip/Zed_v1_axis_data_fifo_0_0/Zed_v1_axis_data_fifo_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_axis_data_fifo_0_0 || ORIG_REF_NAME==Zed_v1_axis_data_fifo_0_0} -quiet] -quiet
 
-# IP: bd/Zed_v1/ip/Zed_v1_PL_IO_TriggerCtrl_v1_0_0/Zed_v1_PL_IO_TriggerCtrl_v1_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_IO_TriggerCtrl_v1_0_0 || ORIG_REF_NAME==Zed_v1_PL_IO_TriggerCtrl_v1_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_system_ila_0_0/Zed_v1_system_ila_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_system_ila_0_0 || ORIG_REF_NAME==Zed_v1_system_ila_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_xlconcat_0_0/Zed_v1_xlconcat_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlconcat_0_0 || ORIG_REF_NAME==Zed_v1_xlconcat_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_xlslice_0_0/Zed_v1_xlslice_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlslice_0_0 || ORIG_REF_NAME==Zed_v1_xlslice_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_xlconstant_0_0/Zed_v1_xlconstant_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlconstant_0_0 || ORIG_REF_NAME==Zed_v1_xlconstant_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_axis_dwidth_converter_0_1/Zed_v1_axis_dwidth_converter_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_axis_dwidth_converter_0_1 || ORIG_REF_NAME==Zed_v1_axis_dwidth_converter_0_1} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_xlconcat_0_1/Zed_v1_xlconcat_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlconcat_0_1 || ORIG_REF_NAME==Zed_v1_xlconcat_0_1} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_xlslice_0_1/Zed_v1_xlslice_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlslice_0_1 || ORIG_REF_NAME==Zed_v1_xlslice_0_1} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_xlconstant_0_1/Zed_v1_xlconstant_0_1.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_xlconstant_0_1 || ORIG_REF_NAME==Zed_v1_xlconstant_0_1} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_axis_dwidth_converter_0_2/Zed_v1_axis_dwidth_converter_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_axis_dwidth_converter_0_2 || ORIG_REF_NAME==Zed_v1_axis_dwidth_converter_0_2} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_system_ila_1_0/Zed_v1_system_ila_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_system_ila_1_0 || ORIG_REF_NAME==Zed_v1_system_ila_1_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_system_ila_2_0/Zed_v1_system_ila_2_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_system_ila_2_0 || ORIG_REF_NAME==Zed_v1_system_ila_2_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_mf_fft_overlap_add_0_0/Zed_v1_mf_fft_overlap_add_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_mf_fft_overlap_add_0_0 || ORIG_REF_NAME==Zed_v1_mf_fft_overlap_add_0_0} -quiet] -quiet
-
-# IP: bd/Zed_v1/ip/Zed_v1_PL_SPI_ADC_MasterStr_0_0/Zed_v1_PL_SPI_ADC_MasterStr_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_PL_SPI_ADC_MasterStr_0_0 || ORIG_REF_NAME==Zed_v1_PL_SPI_ADC_MasterStr_0_0} -quiet] -quiet
+# IP: bd/Zed_v1/ip/Zed_v1_FDRE_0_0/Zed_v1_FDRE_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_FDRE_0_0 || ORIG_REF_NAME==Zed_v1_FDRE_0_0} -quiet] -quiet
 
 # IP: bd/Zed_v1/ip/Zed_v1_auto_pc_0/Zed_v1_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_auto_pc_0 || ORIG_REF_NAME==Zed_v1_auto_pc_0} -quiet] -quiet
+
+# IP: bd/Zed_v1/ip/Zed_v1_s00_regslice_0/Zed_v1_s00_regslice_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_s00_regslice_0 || ORIG_REF_NAME==Zed_v1_s00_regslice_0} -quiet] -quiet
+
+# IP: bd/Zed_v1/ip/Zed_v1_s00_data_fifo_0/Zed_v1_s00_data_fifo_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_s00_data_fifo_0 || ORIG_REF_NAME==Zed_v1_s00_data_fifo_0} -quiet] -quiet
 
 # IP: bd/Zed_v1/ip/Zed_v1_auto_pc_1/Zed_v1_auto_pc_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_auto_pc_1 || ORIG_REF_NAME==Zed_v1_auto_pc_1} -quiet] -quiet
@@ -105,4 +66,7 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_auto
 # IP: bd/Zed_v1/ip/Zed_v1_auto_us_0/Zed_v1_auto_us_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_auto_us_0 || ORIG_REF_NAME==Zed_v1_auto_us_0} -quiet] -quiet
 
-# XDC: /home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/Zed_v1_ooc.xdc
+# IP: bd/Zed_v1/ip/Zed_v1_auto_rs_0/Zed_v1_auto_rs_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Zed_v1_auto_rs_0 || ORIG_REF_NAME==Zed_v1_auto_rs_0} -quiet] -quiet
+
+# XDC: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/Zed_v1_ooc.xdc

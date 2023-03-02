@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1677576966" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Zed_v1_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1677744173" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Zed_v1_wrapper.dcp">
   <File Type="VDS-TIMINGSUMMARY" Name="Zed_v1_wrapper_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="Zed_v1_wrapper.dcp"/>
   <File Type="RDS-UTIL-PB" Name="Zed_v1_wrapper_utilization_synth.pb"/>
@@ -59,10 +59,12 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_PL_SPI_ADC_MasterStr_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_system_ila_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_FDRE_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Zed_v1_axis_data_fifo_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Zed_v1_processing_system7_0_0"/>
 </GenRun>

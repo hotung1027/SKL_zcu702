@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1'
+HD_PWD='/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

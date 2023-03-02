@@ -1,0 +1,1429 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar  2 13:49:40 2023
+# Process ID: 2075041
+# Current directory: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1
+# Command line: vivado -log Zed_v1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Zed_v1_wrapper.tcl -notrace
+# Log file: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper.vdi
+# Journal file: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/vivado.jou
+# Running On: skltmw05-Precision-3660, OS: Linux, CPU Frequency: 2772.835 MHz, CPU Physical cores: 12, Host memory: 33344 MB
+#-----------------------------------------------------------
+source Zed_v1_wrapper.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/skltmw05/workspace/vivado/SKL_user_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/skltmw05/Xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top Zed_v1_wrapper -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_PL_IO_TriggerCtrl_v1_0_0/Zed_v1_PL_IO_TriggerCtrl_v1_0_0.dcp' for cell 'Zed_v1_i/PL_IO_TriggerCtrl_v1_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_PL_SPI_ADC_MasterStr_0_0/Zed_v1_PL_SPI_ADC_MasterStr_0_0.dcp' for cell 'Zed_v1_i/PL_SPI_ADC_MasterStr_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/Zed_v1_axi_dma_0_0.dcp' for cell 'Zed_v1_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/Zed_v1_axi_gpio_0_0.dcp' for cell 'Zed_v1_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axis_data_fifo_0_0/Zed_v1_axis_data_fifo_0_0.dcp' for cell 'Zed_v1_i/axis_data_fifo_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0.dcp' for cell 'Zed_v1_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.dcp' for cell 'Zed_v1_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_0/Zed_v1_rst_ps7_0_100M_0.dcp' for cell 'Zed_v1_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/Zed_v1_rst_ps7_0_100M_1.dcp' for cell 'Zed_v1_i/rst_ps7_0_150M'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_system_ila_0_0/Zed_v1_system_ila_0_0.dcp' for cell 'Zed_v1_i/system_ila_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_pc_1/Zed_v1_auto_pc_1.dcp' for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_rs_0/Zed_v1_auto_rs_0.dcp' for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_rs'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_us_0/Zed_v1_auto_us_0.dcp' for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_us'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_data_fifo_0/Zed_v1_s00_data_fifo_0.dcp' for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/s00_data_fifo'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_regslice_0/Zed_v1_s00_regslice_0.dcp' for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/s00_regslice'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_xbar_0/Zed_v1_xbar_0.dcp' for cell 'Zed_v1_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_pc_0/Zed_v1_auto_pc_0.dcp' for cell 'Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Netlist sorting complete. Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.09 . Memory (MB): peak = 2212.879 ; gain = 0.000 ; free physical = 4681 ; free virtual = 9967
+INFO: [Netlist 29-17] Analyzing 1188 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. Zed_v1_i/clk_wiz_0/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'Zed_v1_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Chipscope 16-324] Core: Zed_v1_i/system_ila_0/inst/ila_lib UUID: ec6c5589-70e4-5cc9-b159-020ef953c025 
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/Zed_v1_axi_dma_0_0.xdc] for cell 'Zed_v1_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/Zed_v1_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/Zed_v1_axi_dma_0_0.xdc] for cell 'Zed_v1_i/axi_dma_0/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'Zed_v1_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'Zed_v1_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'Zed_v1_i/system_ila_0/inst/ila_lib/inst'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'Zed_v1_i/system_ila_0/inst/ila_lib/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/Zed_v1_axi_gpio_0_0_board.xdc] for cell 'Zed_v1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/Zed_v1_axi_gpio_0_0_board.xdc] for cell 'Zed_v1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/Zed_v1_axi_gpio_0_0.xdc] for cell 'Zed_v1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_gpio_0_0/Zed_v1_axi_gpio_0_0.xdc] for cell 'Zed_v1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0_board.xdc] for cell 'Zed_v1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0_board.xdc] for cell 'Zed_v1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0.xdc] for cell 'Zed_v1_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_clk_wiz_0_0/Zed_v1_clk_wiz_0_0.xdc] for cell 'Zed_v1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc] for cell 'Zed_v1_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc] for cell 'Zed_v1_i/processing_system7_0/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_0/Zed_v1_rst_ps7_0_100M_0_board.xdc] for cell 'Zed_v1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_0/Zed_v1_rst_ps7_0_100M_0_board.xdc] for cell 'Zed_v1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_0/Zed_v1_rst_ps7_0_100M_0.xdc] for cell 'Zed_v1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_0/Zed_v1_rst_ps7_0_100M_0.xdc] for cell 'Zed_v1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/Zed_v1_rst_ps7_0_100M_1_board.xdc] for cell 'Zed_v1_i/rst_ps7_0_150M/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/Zed_v1_rst_ps7_0_100M_1_board.xdc] for cell 'Zed_v1_i/rst_ps7_0_150M/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/Zed_v1_rst_ps7_0_100M_1.xdc] for cell 'Zed_v1_i/rst_ps7_0_150M/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_rst_ps7_0_100M_1/Zed_v1_rst_ps7_0_100M_1.xdc] for cell 'Zed_v1_i/rst_ps7_0_150M/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc]
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_Clk_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_Clk_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_Clk_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_Clk_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_Clk_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_Clk_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[4]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[3]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[2]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[1]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[0]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[4]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[3]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[2]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[1]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_GPIO_0[0]'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_Over_GPIO_0'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_SPI_MISO_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_SPI_MISO_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_SPI_MISO_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_CS_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_CS_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_CS_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_MOSI_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_MOSI_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_MOSI_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_Over_GPIO_0'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_SPI_MISO_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_SPI_MISO_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'i_SPI_MISO_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_CS_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_CS_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_CS_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_MOSI_1'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_MOSI_2'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'o_SPI_MOSI_3'. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.srcs/constrs_1/new/ZED.xdc]
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/Zed_v1_axi_dma_0_0_clocks.xdc] for cell 'Zed_v1_i/axi_dma_0/U0'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_axi_dma_0_0/Zed_v1_axi_dma_0_0_clocks.xdc] for cell 'Zed_v1_i/axi_dma_0/U0'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_regslice_0/Zed_v1_s00_regslice_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/s00_regslice/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_regslice_0/Zed_v1_s00_regslice_0_clocks.xdc:10]
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_regslice_0/Zed_v1_s00_regslice_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/s00_regslice/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_data_fifo_0/Zed_v1_s00_data_fifo_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/s00_data_fifo/inst'
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_data_fifo_0/Zed_v1_s00_data_fifo_0_clocks.xdc:2]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_data_fifo_0/Zed_v1_s00_data_fifo_0_clocks.xdc:6]
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_s00_data_fifo_0/Zed_v1_s00_data_fifo_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/s00_data_fifo/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_us_0/Zed_v1_auto_us_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_us_0/Zed_v1_auto_us_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_rs_0/Zed_v1_auto_rs_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_rs/inst'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-7' -to list should not be empty. [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_rs_0/Zed_v1_auto_rs_0_clocks.xdc:10]
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_auto_rs_0/Zed_v1_auto_rs_0_clocks.xdc] for cell 'Zed_v1_i/axi_mem_intercon/s00_couplers/auto_rs/inst'
+INFO: [Project 1-1714] 21 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 7 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3174.125 ; gain = 0.000 ; free physical = 4161 ; free virtual = 9448
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 583 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 532 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 3 instances
+  RAM64M => RAM64M (RAMD64E(x4)): 32 instances
+
+32 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 3174.125 ; gain = 1375.152 ; free physical = 4161 ; free virtual = 9448
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Command: opt_design -directive ExploreWithRemap
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: ExploreWithRemap
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.72 ; elapsed = 00:00:00.42 . Memory (MB): peak = 3174.125 ; gain = 0.000 ; free physical = 4146 ; free virtual = 9432
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:xsdbm:3.0, cache-ID = 8b35162407e91796.
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3223.570 ; gain = 0.000 ; free physical = 3877 ; free virtual = 9172
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 217c7b1a4
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 3223.570 ; gain = 49.445 ; free physical = 3877 ; free virtual = 9172
+
+Phase 2 Retarget
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_S00_AXI_inst/SPI/r_Halfbit_Cnt[3]_i_1 into driver instance Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_S00_AXI_inst/SPI/r_Halfbit_Cnt[3]_i_3, which resulted in an inversion of 13 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER/GEN_INCLUDE_SCATTER.I_S2MM_SCATTER/I_MSSAI_SKID_BUF/sig_byte_cntr[10]_i_2 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER/GEN_INCLUDE_SCATTER.I_S2MM_SCATTER/I_MSSAI_SKID_BUF/sig_btt_cntr[16]_i_4, which resulted in an inversion of 40 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state[4]_i_1 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/GEN_INCLUDE_STATUS_FIFO.I_STS_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst//i_, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state[4]_i_1 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst//i_, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_mem_intercon/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/si_register_slice_inst/aw.aw_pipe/USE_RTL_FIFO.data_srl_reg[31][13]_srl32_i_1 into driver instance Zed_v1_i/axi_mem_intercon/s00_couplers/auto_us/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/si_register_slice_inst/aw.aw_pipe/m_axi_awaddr[2]_INST_0_i_3, which resulted in an inversion of 6 pins
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 5 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 2c5b60f6a
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 3223.570 ; gain = 49.445 ; free physical = 3886 ; free virtual = 9181
+INFO: [Opt 31-389] Phase Retarget created 26 cells and removed 122 cells
+INFO: [Opt 31-1021] In phase Retarget, 92 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 12 load pin(s).
+Phase 3 Constant propagation | Checksum: 1ff7f5ef7
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 3223.570 ; gain = 49.445 ; free physical = 3886 ; free virtual = 9181
+INFO: [Opt 31-389] Phase Constant propagation created 135 cells and removed 415 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 76 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 1fdbe9d22
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3223.570 ; gain = 49.445 ; free physical = 3885 ; free virtual = 9180
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 520 cells
+INFO: [Opt 31-1021] In phase Sweep, 1068 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 BUFG optimization
+Phase 5 BUFG optimization | Checksum: 1fdbe9d22
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3223.570 ; gain = 49.445 ; free physical = 3885 ; free virtual = 9179
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 1fdbe9d22
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 3223.570 ; gain = 49.445 ; free physical = 3885 ; free virtual = 9179
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+INFO: [Opt 31-1555] control_set_opt supports Versal devices only, and device 7z020 is unsupported
+
+Phase 7 Remap
+Phase 7 Remap | Checksum: 29b683c8c
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 3540.547 ; gain = 366.422 ; free physical = 3570 ; free virtual = 8865
+INFO: [Opt 31-389] Phase Remap created 80 cells and removed 86 cells
+INFO: [Opt 31-1021] In phase Remap, 127 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 26c209554
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 3540.547 ; gain = 366.422 ; free physical = 3570 ; free virtual = 8865
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 90 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              26  |             122  |                                             92  |
+|  Constant propagation         |             135  |             415  |                                             76  |
+|  Sweep                        |               0  |             520  |                                           1068  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Remap                        |              80  |              86  |                                            127  |
+|  Post Processing Netlist      |               0  |               0  |                                             90  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3540.547 ; gain = 0.000 ; free physical = 3571 ; free virtual = 8865
+Ending Logic Optimization Task | Checksum: 1f85d06ee
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 3540.547 ; gain = 366.422 ; free physical = 3571 ; free virtual = 8865
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3540.547 ; gain = 0.000 ; free physical = 3572 ; free virtual = 8866
+Ending Netlist Obfuscation Task | Checksum: 1f85d06ee
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3540.547 ; gain = 0.000 ; free physical = 3572 ; free virtual = 8866
+INFO: [Common 17-83] Releasing license: Implementation
+67 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 3540.547 ; gain = 366.422 ; free physical = 3572 ; free virtual = 8866
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3610.352 ; gain = 48.926 ; free physical = 3547 ; free virtual = 8845
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Zed_v1_wrapper_drc_opted.rpt -pb Zed_v1_wrapper_drc_opted.pb -rpx Zed_v1_wrapper_drc_opted.rpx
+Command: report_drc -file Zed_v1_wrapper_drc_opted.rpt -pb Zed_v1_wrapper_drc_opted.pb -rpx Zed_v1_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: power_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Begin power optimizations | Checksum: 1f85d06ee
+INFO: [Pwropt 34-50] Optimizing power for module Zed_v1_wrapper ...
+INFO: [Pwropt 34-207] Design is in partially-placed state. Running in partially-placed mode.
+PSMgr Creation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3899.336 ; gain = 0.000 ; free physical = 3255 ; free virtual = 8556
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/axi_mem_intercon/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/axaddr_wrap_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/axaddr_wrap_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_reg[0] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_reg[1] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_reg[2] does not fanout to any other flop but itself
+Found 5942 new always-off flops by back propagation
+Pre-processing: Time (s): cpu = 00:00:05 ; elapsed = 00:00:01 . Memory (MB): peak = 4231.188 ; gain = 331.852 ; free physical = 3117 ; free virtual = 8417
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+IDT: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3047 ; free virtual = 8348
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Pwropt 34-215] Skipped ODC enables for 68 nets in BRAM flops in bus-based analysis.
+INFO: [Pwropt 34-214] Skipped ODC enables for 0 nets in BRAM address flops in bus-based analysis.
+ODC: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3005 ; free virtual = 8306
+Power optimization passes: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 4231.188 ; gain = 331.852 ; free physical = 3000 ; free virtual = 8301
+
+INFO: [Pwropt 34-77] Creating clock enable groups ...
+INFO: [Pwropt 34-96] Including small groups for filtering based on enable probabilities.
+ Done
+Grouping enables: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3411 ; free virtual = 8712
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-26] Patching clock gating enable signals for design Zed_v1_wrapper ...
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 33 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original ram clusters 84 accepted clusters 84
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original flop clusters 829 accepted clusters 829
+
+Number of Slice Registers augmented: 474 newly gated: 902 Total: 10104
+Number of SRLs augmented: 2  newly gated: 0 Total: 1402
+Number of BRAM Ports augmented: 82 newly gated: 2 Total Ports: 66
+Number of Flops added for Enable Generation: 0
+
+Flops dropped: 155/1774 RAMS dropped: 0/84 Clusters dropped: 72/913 Enables dropped: 21
+Patching clock gating enables finished successfully.
+Ending PowerOpt Patch Enables Task | Checksum: 2b5779280
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:09 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3328 ; free virtual = 8629
+INFO: [Pwropt 34-30] Power optimization finished successfully.
+End power optimizations | Checksum: 2b5779280
+Power optimization: Time (s): cpu = 00:00:41 ; elapsed = 00:00:18 . Memory (MB): peak = 4231.188 ; gain = 517.082 ; free physical = 3423 ; free virtual = 8724
+INFO: [Pwropt 34-198] Malloced memory gain at end of power optimization: 61667288 bytes
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0_ENBWREN_cooolgate_en_gate_415 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0_ENBWREN_cooolgate_en_gate_414, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0_ENBWREN_cooolgate_en_gate_417 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0_ENBWREN_cooolgate_en_gate_416, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0_ENBWREN_cooolgate_en_gate_419 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_0_ENBWREN_cooolgate_en_gate_418, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_ENBWREN_cooolgate_en_gate_428 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_ENBWREN_cooolgate_en_gate_427, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_ENBWREN_cooolgate_en_gate_430 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_ENBWREN_cooolgate_en_gate_429, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_ENBWREN_cooolgate_en_gate_432 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_1_ENBWREN_cooolgate_en_gate_431, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2_ENBWREN_cooolgate_en_gate_441 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2_ENBWREN_cooolgate_en_gate_440, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2_ENBWREN_cooolgate_en_gate_443 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2_ENBWREN_cooolgate_en_gate_442, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2_ENBWREN_cooolgate_en_gate_445 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_2_ENBWREN_cooolgate_en_gate_444, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_463 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_462, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_465 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_464, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_470 into driver instance Zed_v1_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/I_CMD_STATUS/I_CMD_FIFO/USE_ASYNC_FIFO.I_ASYNC_FIFO/I_ASYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg_REGCEAREGCE_cooolgate_en_gate_469, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/wrap_second_len_r_reg[0]_CE_cooolgate_en_gate_1431 into driver instance Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/ar_cmd_fsm_0/axlen_cnt[2]_i_2__0, which resulted in an inversion of 17 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/wrap_second_len_r_reg[0]_CE_cooolgate_en_gate_1436 into driver instance Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/aw_cmd_fsm_0/axlen_cnt[3]_i_3__0, which resulted in an inversion of 19 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_33 into driver instance Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_32, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_46 into driver instance Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_45, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_59 into driver instance Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_58, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_72 into driver instance Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_71, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_85 into driver instance Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_84, which resulted in an inversion of 1 pins
+INFO: [Opt 31-1287] Pulled Inverter Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_98 into driver instance Zed_v1_i/system_ila_0/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_ENBWREN_cooolgate_en_gate_97, which resulted in an inversion of 1 pins
+INFO: [Opt 31-138] Pushed 11 inverter(s) to 52 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1fd6ba0a2
+
+Time (s): cpu = 00:00:00.75 ; elapsed = 00:00:00.39 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3498 ; free virtual = 8799
+INFO: [Opt 31-389] Phase Retarget created 18 cells and removed 41 cells
+INFO: [Opt 31-1021] In phase Retarget, 76 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 BUFG optimization
+Phase 2 BUFG optimization | Checksum: 1fd6ba0a2
+
+Time (s): cpu = 00:00:00.89 ; elapsed = 00:00:00.47 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3498 ; free virtual = 8799
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 3 Remap
+Phase 3 Remap | Checksum: 1efb8ad3f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.73 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3495 ; free virtual = 8797
+INFO: [Opt 31-389] Phase Remap created 182 cells and removed 497 cells
+INFO: [Opt 31-1021] In phase Remap, 127 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Post Processing Netlist
+Phase 4 Post Processing Netlist | Checksum: 26e65d52a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.77 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3495 ; free virtual = 8797
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 90 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+---------------------------------------------------------------------------------------------------------------------
+|  Phase                    |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+---------------------------------------------------------------------------------------------------------------------
+|  Retarget                 |              18  |              41  |                                             76  |
+|  BUFG optimization        |               0  |               0  |                                              0  |
+|  Remap                    |             182  |             497  |                                            127  |
+|  Post Processing Netlist  |               0  |               0  |                                             90  |
+---------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 1f81e74a8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.81 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3494 ; free virtual = 8796
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3494 ; free virtual = 8796
+Ending Netlist Obfuscation Task | Checksum: 1f81e74a8
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3494 ; free virtual = 8796
+INFO: [Common 17-83] Releasing license: Implementation
+132 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+power_opt_design completed successfully
+power_opt_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:19 . Memory (MB): peak = 4231.188 ; gain = 517.082 ; free physical = 3494 ; free virtual = 8796
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.04 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3478 ; free virtual = 8783
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_pwropt.dcp' has been generated.
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design -directive ExtraNetDelay_high
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'ExtraNetDelay_high' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3476 ; free virtual = 8783
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 10b217b34
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3476 ; free virtual = 8783
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3490 ; free virtual = 8797
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 49be13ce
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.77 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3485 ; free virtual = 8792
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: d6535e8f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3459 ; free virtual = 8766
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: d6535e8f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3459 ; free virtual = 8766
+Phase 1 Placer Initialization | Checksum: d6535e8f
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3459 ; free virtual = 8766
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: b4bb0eca
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3441 ; free virtual = 8748
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: ce2cad4a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3451 ; free virtual = 8758
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: be17816a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:03 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3450 ; free virtual = 8758
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 167904904
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:06 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8713
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 3 LUTNM shape to break, 1002 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 3, two critical 0, total 3, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 403 nets or LUTs. Breaked 3 LUTs, combined 400 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
+INFO: [Physopt 32-81] Processed net Zed_v1_i/rst_ps7_0_100M/U0/peripheral_aresetn[0]. Replicated 4 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 4 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 4 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3404 ; free virtual = 8712
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3404 ; free virtual = 8711
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            3  |            400  |                   403  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Fanout                                           |            4  |              0  |                     1  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            7  |            400  |                   404  |           0  |          10  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 59b1412a
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:07 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3404 ; free virtual = 8711
+Phase 2.4 Global Placement Core | Checksum: 15fa713f7
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:07 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3403 ; free virtual = 8711
+Phase 2 Global Placement | Checksum: 15fa713f7
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:07 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3408 ; free virtual = 8715
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1ae72a564
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:07 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3407 ; free virtual = 8715
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: f79425b1
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:08 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3407 ; free virtual = 8714
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 877d1741
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:08 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3408 ; free virtual = 8715
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 4aa95f26
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:08 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3408 ; free virtual = 8715
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: a2f4c1d6
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:08 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3399 ; free virtual = 8706
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 1789a1ea4
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:10 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3391 ; free virtual = 8698
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1c1e9a805
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:11 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3390 ; free virtual = 8699
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1da64e227
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:11 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3390 ; free virtual = 8699
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: bccc32f0
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3394 ; free virtual = 8703
+Phase 3 Detail Placement | Checksum: bccc32f0
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3394 ; free virtual = 8703
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Place 46-20] Placer is running with the ExtraNetDelay_high directive. Post Placement Optimization may take longer to complete with ExtraNetDelay_high compared to other directives.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 16329e756
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.792 | TNS=-13.253 |
+Phase 1 Physical Synthesis Initialization | Checksum: f79e3405
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.19 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3383 ; free virtual = 8692
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: ec12008a
+
+Time (s): cpu = 00:00:00.74 ; elapsed = 00:00:00.26 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3385 ; free virtual = 8693
+Phase 4.1.1.1 BUFG Insertion | Checksum: 16329e756
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:13 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3385 ; free virtual = 8693
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.226. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1a3cf73ec
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:20 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3405 ; free virtual = 8716
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:20 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3405 ; free virtual = 8716
+Phase 4.1 Post Commit Optimization | Checksum: 1a3cf73ec
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:20 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3405 ; free virtual = 8716
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1a3cf73ec
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:20 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1a3cf73ec
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:20 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+Phase 4.3 Placer Reporting | Checksum: 1a3cf73ec
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:21 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:21 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 188bc346d
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:21 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+Ending Placer Task | Checksum: 950d0cc2
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:01:21 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3406 ; free virtual = 8717
+INFO: [Common 17-83] Releasing license: Implementation
+177 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:47 ; elapsed = 00:01:21 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3435 ; free virtual = 8747
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.76 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3422 ; free virtual = 8759
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file Zed_v1_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.14 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3427 ; free virtual = 8746
+INFO: [runtcl-4] Executing : report_utilization -file Zed_v1_wrapper_utilization_placed.rpt -pb Zed_v1_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file Zed_v1_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.14 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3439 ; free virtual = 8759
+Command: power_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Begin power optimizations | Checksum: b99a334a
+INFO: [Pwropt 34-50] Optimizing power for module Zed_v1_wrapper ...
+INFO: [Pwropt 34-207] Design is in post-place state. Running in post-place mode.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.226 | TNS=0.000 |
+PSMgr Creation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:00.87 . Memory (MB): peak = 4231.188 ; gain = 0.000 ; free physical = 3091 ; free virtual = 8411
+Running Vector-less Activity Propagation...
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/axi_mem_intercon/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/empty_fwft_fb_o_i_reg does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/cmd_translator_0/wrap_cmd_0/axaddr_wrap_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/incr_cmd_0/axaddr_incr_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of Zed_v1_i/ps7_0_axi_periph/s00_couplers/auto_pc/inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/cmd_translator_0/wrap_cmd_0/axaddr_wrap_reg[11] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_reg[0] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_reg[1] does not fanout to any other flop but itself
+INFO: [Pwropt 34-54] Flop output of dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_reg[2] does not fanout to any other flop but itself
+Found 5942 new always-off flops by back propagation
+Pre-processing: Time (s): cpu = 00:00:07 ; elapsed = 00:00:01 . Memory (MB): peak = 4277.273 ; gain = 46.086 ; free physical = 2992 ; free virtual = 8312
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+IDT: Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 2999 ; free virtual = 8317
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Pwropt 34-215] Skipped ODC enables for 68 nets in BRAM flops in bus-based analysis.
+INFO: [Pwropt 34-214] Skipped ODC enables for 0 nets in BRAM address flops in bus-based analysis.
+ODC: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 2989 ; free virtual = 8307
+Power optimization passes: Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 4304.277 ; gain = 73.090 ; free physical = 2989 ; free virtual = 8307
+
+INFO: [Pwropt 34-77] Creating clock enable groups ...
+INFO: [Pwropt 34-96] Including small groups for filtering based on enable probabilities.
+ Done
+Grouping enables: Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3367 ; free virtual = 8684
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-26] Patching clock gating enable signals for design Zed_v1_wrapper ...
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 33 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original ram clusters 79 accepted clusters 4
+INFO: [Pwropt 34-100] Patcher adaptive clustering : original flop clusters 603 accepted clusters 10
+
+Number of Slice Registers augmented: 26 newly gated: 0 Total: 10108
+Number of SRLs augmented: 0  newly gated: 0 Total: 1402
+Number of BRAM Ports augmented: 4 newly gated: 0 Total Ports: 66
+Number of Flops added for Enable Generation: 0
+
+Flops dropped: 3/33 RAMS dropped: 0/4 Clusters dropped: 11/14 Enables dropped: 2
+
+Number of LUTs created for enable logic : 
+    LUT1 : 0
+    LUT2 : 0
+    LUT3 : 0
+    LUT4 : 4
+    LUT5 : 1
+    LUT6 : 2
+
+Patching clock gating enables finished successfully.
+Ending PowerOpt Patch Enables Task | Checksum: 149a21041
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.87 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3367 ; free virtual = 8685
+INFO: [Pwropt 34-30] Power optimization finished successfully.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3367 ; free virtual = 8685
+End power optimizations | Checksum: 1e4832cd0
+Power optimization: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 4304.277 ; gain = 73.090 ; free physical = 3399 ; free virtual = 8717
+INFO: [Pwropt 34-198] Malloced memory gain at end of power optimization: -3886376 bytes
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3399 ; free virtual = 8717
+Ending Netlist Obfuscation Task | Checksum: 1e4832cd0
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.05 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3398 ; free virtual = 8716
+INFO: [Common 17-83] Releasing license: Implementation
+211 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+power_opt_design completed successfully
+power_opt_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:10 . Memory (MB): peak = 4304.277 ; gain = 73.090 ; free physical = 3398 ; free virtual = 8716
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.77 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3378 ; free virtual = 8722
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_postplace_pwropt.dcp' has been generated.
+Command: phys_opt_design -directive AlternateFlowWithRetiming
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: AlternateFlowWithRetiming
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.34 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3402 ; free virtual = 8728
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+218 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.76 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3370 ; free virtual = 8722
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_physopt.dcp' has been generated.
+Command: route_design -directive NoTimingRelaxation -tns_cleanup
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: fb01fac2 ConstDB: 0 ShapeSum: 571bf12b RouteDB: 0
+Post Restoration Checksum: NetGraph: 88f66a7c NumContArr: a5a6212b Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: 12e9c8ba7
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3255 ; free virtual = 8589
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 12e9c8ba7
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3224 ; free virtual = 8558
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 12e9c8ba7
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3224 ; free virtual = 8558
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 2217d7bc0
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3215 ; free virtual = 8549
+
+Phase 2.4 Update Timing for Bus Skew
+
+Phase 2.4.1 Update Timing
+Phase 2.4.1 Update Timing | Checksum: 1b9dca5f3
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3226 ; free virtual = 8560
+Phase 2.4 Update Timing for Bus Skew | Checksum: 18881f06a
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:12 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3226 ; free virtual = 8560
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 15455
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 15455
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1a97ba510
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3223 ; free virtual = 8557
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1a97ba510
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3223 ; free virtual = 8557
+Phase 3 Initial Routing | Checksum: 80af68e6
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3217 ; free virtual = 8551
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2104
+ Number of Nodes with overlaps = 471
+ Number of Nodes with overlaps = 170
+ Number of Nodes with overlaps = 71
+ Number of Nodes with overlaps = 26
+ Number of Nodes with overlaps = 12
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: e4c93cf1
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:20 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3215 ; free virtual = 8549
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 71
+ Number of Nodes with overlaps = 37
+ Number of Nodes with overlaps = 16
+ Number of Nodes with overlaps = 10
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+Phase 4.2 Global Iteration 1 | Checksum: 276ec0d07
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:23 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3209 ; free virtual = 8543
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 74
+ Number of Nodes with overlaps = 18
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+Phase 4.3 Global Iteration 2 | Checksum: 11bb2fe3b
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:24 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+Phase 4 Rip-up And Reroute | Checksum: 11bb2fe3b
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 TNS Cleanup
+
+Phase 5.1.1 Delay CleanUp
+
+Phase 5.1.1.1 Update Timing
+Phase 5.1.1.1 Update Timing | Checksum: 1284503fd
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+ Number of Nodes with overlaps = 0
+
+Phase 5.1.1.2 Update Timing
+Phase 5.1.1.2 Update Timing | Checksum: 11df8c142
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+Phase 5.1.1 Delay CleanUp | Checksum: 19b6b8839
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+Phase 5.1 TNS Cleanup | Checksum: 19b6b8839
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 19b6b8839
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+Phase 5 Delay and Skew Optimization | Checksum: 19b6b8839
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:25 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: fee2f28d
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+Phase 6.1 Hold Fix Iter | Checksum: 1defce7db
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+Phase 6 Post Hold Fix | Checksum: 1defce7db
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3208 ; free virtual = 8542
+
+Phase 7 Timing Verification
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: e8532d6d
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+Phase 7 Timing Verification | Checksum: e8532d6d
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.24878 %
+  Global Horizontal Routing Utilization  = 4.08866 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 49.5495%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 65.7658%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 63.2353%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 51.4706%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 8 Route finalize | Checksum: e8532d6d
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: e8532d6d
+
+Time (s): cpu = 00:00:42 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 106b0daff
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:26 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3211 ; free virtual = 8544
+
+Phase 11 Incr Placement Change
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3248 ; free virtual = 8582
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.112. For the most accurate timing information please run report_timing.
+Ending IncrPlace Task | Checksum: d537f23a
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3273 ; free virtual = 8608
+Phase 11 Incr Placement Change | Checksum: 106b0daff
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:33 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3274 ; free virtual = 8608
+
+Phase 12 Build RT Design
+Checksum: PlaceDB: 32f7dcfa ConstDB: 0 ShapeSum: a2401540 RouteDB: 8bee3539
+Post Restoration Checksum: NetGraph: dae531ab NumContArr: 24715f3d Constraints: 0 Timing: 0
+Phase 12 Build RT Design | Checksum: ff5690e8
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:34 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3245 ; free virtual = 8580
+
+Phase 13 Router Initialization
+
+Phase 13.1 Fix Topology Constraints
+Phase 13.1 Fix Topology Constraints | Checksum: ff5690e8
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:34 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3214 ; free virtual = 8548
+
+Phase 13.2 Pre Route Cleanup
+Phase 13.2 Pre Route Cleanup | Checksum: c10d3080
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:34 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3213 ; free virtual = 8548
+ Number of Nodes with overlaps = 0
+
+Phase 13.3 Update Timing
+Phase 13.3 Update Timing | Checksum: 18cbfd02f
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:36 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3200 ; free virtual = 8533
+
+Phase 13.4 Update Timing for Bus Skew
+
+Phase 13.4.1 Update Timing
+Phase 13.4.1 Update Timing | Checksum: 2028e50b4
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:37 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3198 ; free virtual = 8532
+Phase 13.4 Update Timing for Bus Skew | Checksum: 1d524224f
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:37 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3198 ; free virtual = 8532
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.2362 %
+  Global Horizontal Routing Utilization  = 4.06939 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 113
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 59
+  Number of Partially Routed Nets     = 54
+  Number of Node Overlaps             = 0
+
+Phase 13 Router Initialization | Checksum: 1562d11cb
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:37 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3193 ; free virtual = 8527
+
+Phase 14 Initial Routing
+
+Phase 14.1 Global Routing
+Phase 14.1 Global Routing | Checksum: 1562d11cb
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:37 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3193 ; free virtual = 8527
+Phase 14 Initial Routing | Checksum: 1ab851321
+
+Time (s): cpu = 00:01:03 ; elapsed = 00:00:37 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3191 ; free virtual = 8525
+
+Phase 15 Rip-up And Reroute
+
+Phase 15.1 Global Iteration 0
+ Number of Nodes with overlaps = 224
+ Number of Nodes with overlaps = 146
+ Number of Nodes with overlaps = 102
+ Number of Nodes with overlaps = 42
+ Number of Nodes with overlaps = 41
+ Number of Nodes with overlaps = 23
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+Phase 15.1 Global Iteration 0 | Checksum: 1660e8548
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:00:42 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3184 ; free virtual = 8518
+
+Phase 15.2 Global Iteration 1
+ Number of Nodes with overlaps = 117
+ Number of Nodes with overlaps = 62
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 0
+Phase 15.2 Global Iteration 1 | Checksum: 1649d5e48
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:44 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3195 ; free virtual = 8529
+Phase 15 Rip-up And Reroute | Checksum: 1649d5e48
+
+Time (s): cpu = 00:01:13 ; elapsed = 00:00:44 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3195 ; free virtual = 8529
+
+Phase 16 Delay and Skew Optimization
+
+Phase 16.1 TNS Cleanup
+
+Phase 16.1.1 Delay CleanUp
+
+Phase 16.1.1.1 Update Timing
+Phase 16.1.1.1 Update Timing | Checksum: 151c1a5e4
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3195 ; free virtual = 8529
+Phase 16.1.1 Delay CleanUp | Checksum: 1205cf96c
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3194 ; free virtual = 8529
+Phase 16.1 TNS Cleanup | Checksum: 1205cf96c
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3194 ; free virtual = 8528
+
+Phase 16.2 Clock Skew Optimization
+Phase 16.2 Clock Skew Optimization | Checksum: 1205cf96c
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3194 ; free virtual = 8528
+Phase 16 Delay and Skew Optimization | Checksum: 1205cf96c
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3193 ; free virtual = 8528
+
+Phase 17 Post Hold Fix
+
+Phase 17.1 Hold Fix Iter
+
+Phase 17.1.1 Update Timing
+Phase 17.1.1 Update Timing | Checksum: 165dc0ba4
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3192 ; free virtual = 8526
+Phase 17.1 Hold Fix Iter | Checksum: 1270749ab
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3192 ; free virtual = 8526
+Phase 17 Post Hold Fix | Checksum: 1270749ab
+
+Time (s): cpu = 00:01:15 ; elapsed = 00:00:45 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3192 ; free virtual = 8526
+
+Phase 18 Timing Verification
+
+Phase 18.1 Update Timing
+Phase 18.1 Update Timing | Checksum: 15d6b51cf
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:46 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3191 ; free virtual = 8525
+Phase 18 Timing Verification | Checksum: 15d6b51cf
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:46 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3191 ; free virtual = 8525
+
+Phase 19 Reset Design
+Post Restoration Checksum: NetGraph: 58f22557 NumContArr: 1c0331ba Constraints: 0 Timing: 4ac9a2d
+
+Phase 19.1 Create Timer
+Phase 19.1 Create Timer | Checksum: 79a1f13e
+
+Time (s): cpu = 00:01:17 ; elapsed = 00:00:46 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3203 ; free virtual = 8537
+Phase 19 Reset Design | Checksum: 79a1f13e
+
+Time (s): cpu = 00:01:18 ; elapsed = 00:00:46 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3206 ; free virtual = 8540
+
+Phase 20 Post Router Timing
+Phase 20 Post Router Timing | Checksum: 160e694bc
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:47 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3207 ; free virtual = 8541
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:47 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3308 ; free virtual = 8642
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+229 Infos, 56 Warnings, 36 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:22 ; elapsed = 00:00:47 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3308 ; free virtual = 8642
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.83 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3289 ; free virtual = 8652
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Zed_v1_wrapper_drc_routed.rpt -pb Zed_v1_wrapper_drc_routed.pb -rpx Zed_v1_wrapper_drc_routed.rpx
+Command: report_drc -file Zed_v1_wrapper_drc_routed.rpt -pb Zed_v1_wrapper_drc_routed.pb -rpx Zed_v1_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file Zed_v1_wrapper_methodology_drc_routed.rpt -pb Zed_v1_wrapper_methodology_drc_routed.pb -rpx Zed_v1_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file Zed_v1_wrapper_methodology_drc_routed.rpt -pb Zed_v1_wrapper_methodology_drc_routed.pb -rpx Zed_v1_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file Zed_v1_wrapper_power_routed.rpt -pb Zed_v1_wrapper_power_summary_routed.pb -rpx Zed_v1_wrapper_power_routed.rpx
+Command: report_power -file Zed_v1_wrapper_power_routed.rpt -pb Zed_v1_wrapper_power_summary_routed.pb -rpx Zed_v1_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+241 Infos, 57 Warnings, 36 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file Zed_v1_wrapper_route_status.rpt -pb Zed_v1_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file Zed_v1_wrapper_timing_summary_routed.rpt -pb Zed_v1_wrapper_timing_summary_routed.pb -rpx Zed_v1_wrapper_timing_summary_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file Zed_v1_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file Zed_v1_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file Zed_v1_wrapper_bus_skew_routed.rpt -pb Zed_v1_wrapper_bus_skew_routed.pb -rpx Zed_v1_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Command: phys_opt_design -directive ExploreWithAggressiveHoldFix
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-241] Physical synthesis in post route mode ( 100.0% nets are fully routed)
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: ExploreWithAggressiveHoldFix
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.77 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3287 ; free virtual = 8645
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 2.89s |  WALL: 0.98s
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3287 ; free virtual = 8645
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 8 CPUs
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-0.304 | TNS=-3.812 | WHS=0.008 | THS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 15eea8441
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.86 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3286 ; free virtual = 8644
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {Route 35-}  -suppress '. The existing rule will be replaced.
+
+Phase 2 Critical Path Optimization
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-0.304 | TNS=-3.812 | WHS=0.008 | THS=0.000 |
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/write_pointer_reg[12].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/clk_wiz_0/inst/clk_out1_Zed_v1_clk_wiz_0_0.
+INFO: [Physopt 32-663] Processed net Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/write_pointer[0]_i_1_n_0.  Re-placed instance Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/write_pointer[0]_i_1
+INFO: [Physopt 32-952] Improved path group WNS = -0.177. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/write_pointer[0]_i_1_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/mst_exec_state__0[0].
+INFO: [Physopt 32-663] Processed net Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_S00_AXI_inst/SR[0].  Re-placed instance Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_S00_AXI_inst/mst_exec_state[1]_i_1
+INFO: [Physopt 32-952] Improved path group WNS = -0.169. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_S00_AXI_inst/SR[0].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/m00_axis_tdata[4].
+INFO: [Physopt 32-952] Improved path group WNS = -0.150. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_2_i_2_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/m00_axis_tdata[0].
+INFO: [Physopt 32-952] Improved path group WNS = -0.123. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_2_i_2_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/m00_axis_tdata[8].
+INFO: [Physopt 32-952] Improved path group WNS = -0.040. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/r_Receive_reg_2_i_2_n_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/rst_ps7_0_100M/U0/peripheral_aresetn[0]_repN.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/PL_SPI_ADC_MasterStr_0/inst/PL_SPI_ADC_MasterStream_v1_0_M00_AXIS_inst/m00_axis_tdata[0].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/clk_wiz_0/inst/clk_out1_Zed_v1_clk_wiz_0_0.
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out2_Zed_v1_clk_wiz_0_0. Processed net: Zed_v1_i/rst_ps7_0_100M/U0/peripheral_aresetn[0]_repN.
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-0.040 | TNS=-0.040 | WHS=0.008 | THS=0.000 |
+Phase 2 Critical Path Optimization | Checksum: 15eea8441
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3147 ; free virtual = 8506
+
+Phase 3 Hold Fix Optimization
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-0.040 | TNS=-0.040 | WHS=0.008 | THS=0.000 |
+INFO: [Physopt 32-45] Identified 4 candidate nets for hold slack optimization.
+INFO: [Physopt 32-234] Optimized 3 nets. Inserted 0 new ZHOLD_DELAYs. Calibrated 0 existing ZHOLD_DELAYs. Inserted 3 buffers.
+
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-0.040 | TNS=-0.040 | WHS=0.008 | THS=0.000 |
+Phase 3 Hold Fix Optimization | Checksum: 15eea8441
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:22 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3156 ; free virtual = 8515
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3156 ; free virtual = 8515
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=-0.040 | TNS=-0.040 | WHS=0.008 | THS=0.000 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Critical Path  |          0.264  |          3.772  |            0  |              0  |                     5  |           0  |           1  |  00:00:19  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Summary of Hold Fix Optimizations
+=================================
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization               |  WHS Gain (ns)  |  THS Gain (ns)  |  Added LUTs  |  Added FFs  |  Optimized Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT1 and ZHOLD Insertion   |          0.000  |          0.000  |           3  |          0  |               3  |           0  |           1  |  00:00:02  |
+|  Total                      |          0.000  |          0.000  |           3  |          0  |               3  |           0  |           1  |  00:00:02  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3156 ; free virtual = 8515
+Ending Physical Synthesis Task | Checksum: 16f820150
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:22 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3156 ; free virtual = 8515
+INFO: [Common 17-83] Releasing license: Implementation
+37 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:23 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3232 ; free virtual = 8591
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.84 . Memory (MB): peak = 4304.277 ; gain = 0.000 ; free physical = 3205 ; free virtual = 8592
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/impl_1/Zed_v1_wrapper_postroute_physopt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -warn_on_violation -file Zed_v1_wrapper_timing_summary_postroute_physopted.rpt -pb Zed_v1_wrapper_timing_summary_postroute_physopted.pb -rpx Zed_v1_wrapper_timing_summary_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file Zed_v1_wrapper_bus_skew_postroute_physopted.rpt -pb Zed_v1_wrapper_bus_skew_postroute_physopted.pb -rpx Zed_v1_wrapper_bus_skew_postroute_physopted.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  2 13:53:37 2023...

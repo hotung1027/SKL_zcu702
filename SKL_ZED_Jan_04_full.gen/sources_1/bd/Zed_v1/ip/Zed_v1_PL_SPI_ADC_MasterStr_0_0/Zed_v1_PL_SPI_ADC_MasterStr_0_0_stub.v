@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-// Date        : Tue Feb 28 17:36:37 2023
+// Date        : Wed Mar  1 17:44:25 2023
 // Host        : skltmw05-Precision-3660 running 64-bit Ubuntu 22.04.2 LTS
-// Command     : write_verilog -force -mode synth_stub
-//               /home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_PL_SPI_ADC_MasterStr_0_0/Zed_v1_PL_SPI_ADC_MasterStr_0_0_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top Zed_v1_PL_SPI_ADC_MasterStr_0_0 -prefix
+//               Zed_v1_PL_SPI_ADC_MasterStr_0_0_ Zed_v1_PL_SPI_ADC_MasterStr_0_0_stub.v
 // Design      : Zed_v1_PL_SPI_ADC_MasterStr_0_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

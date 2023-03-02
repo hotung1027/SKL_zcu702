@@ -2,12 +2,12 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Tue Feb 28 17:37:01 2023
-# Process ID: 456843
-# Current directory: /home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/synth_1
+# Start of session at: Thu Mar  2 16:02:56 2023
+# Process ID: 2311201
+# Current directory: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/synth_1
 # Command line: vivado -log Zed_v1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Zed_v1_wrapper.tcl
-# Log file: /home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/synth_1/Zed_v1_wrapper.vds
-# Journal file: /home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/synth_1/vivado.jou
-# Running On: skltmw05-Precision-3660, OS: Linux, CPU Frequency: 1766.402 MHz, CPU Physical cores: 12, Host memory: 33344 MB
+# Log file: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/synth_1/Zed_v1_wrapper.vds
+# Journal file: /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/synth_1/vivado.jou
+# Running On: skltmw05-Precision-3660, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 12, Host memory: 33344 MB
 #-----------------------------------------------------------
 source Zed_v1_wrapper.tcl -notrace

@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:PL_SPI_ADC_MasterStream_v1_0:1.1
-// IP Revision: 88
+// IP Revision: 91
 
 `timescale 1ns/1ps
 
@@ -59,9 +59,9 @@ module Zed_v1_PL_SPI_ADC_MasterStr_0_0 (
   i_SPI_MISO,
   o_SPI_MOSI,
   o_SPI_CS,
-  i_CMOS_Clk,
   i_CMOS_Data,
   i_ADC_Work,
+  i_CMOS_Clk,
   o_LED,
   i_Trigger,
   i_Mode,
@@ -101,11 +101,11 @@ output wire o_SPI_Clk;
 input wire i_SPI_MISO;
 output wire o_SPI_MOSI;
 output wire o_SPI_CS;
+input wire [11 : 0] i_CMOS_Data;
+input wire i_ADC_Work;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME i_CMOS_Clk, FREQ_HZ 150000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN /clk_wiz_0_clk_out1, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 i_CMOS_Clk CLK" *)
 input wire i_CMOS_Clk;
-input wire [11 : 0] i_CMOS_Data;
-input wire i_ADC_Work;
 output wire [7 : 0] o_LED;
 input wire i_Trigger;
 input wire i_Mode;
@@ -177,15 +177,16 @@ input wire m00_axis_tready;
     .C_S00_AXI_DATA_WIDTH(32),
     .C_S00_AXI_ADDR_WIDTH(5),
     .C_M00_AXIS_TDATA_WIDTH(16),
-    .C_M00_AXIS_START_COUNT(2)
+    .C_M00_AXIS_START_COUNT(2),
+    .C_M_DATA_SIZE(5000)
   ) inst (
     .o_SPI_Clk(o_SPI_Clk),
     .i_SPI_MISO(i_SPI_MISO),
     .o_SPI_MOSI(o_SPI_MOSI),
     .o_SPI_CS(o_SPI_CS),
-    .i_CMOS_Clk(i_CMOS_Clk),
     .i_CMOS_Data(i_CMOS_Data),
     .i_ADC_Work(i_ADC_Work),
+    .i_CMOS_Clk(i_CMOS_Clk),
     .o_LED(o_LED),
     .i_Trigger(i_Trigger),
     .i_Mode(i_Mode),

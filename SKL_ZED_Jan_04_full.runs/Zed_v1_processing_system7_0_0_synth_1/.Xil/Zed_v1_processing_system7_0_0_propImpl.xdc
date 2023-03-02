@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc rfile:../../../SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc rfile:../../../SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
 current_instance inst
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_0 0.3

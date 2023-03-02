@@ -32,37 +32,37 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1328408
+INFO: [Synth 8-7075] Helper process launched with PID 2072657
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/skltmw05/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2448.543 ; gain = 369.801 ; free physical = 534 ; free virtual = 4420
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.516; parent = 1557.178; children = 175.338
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3428.547; parent = 2455.484; children = 973.062
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2448.449 ; gain = 369.801 ; free physical = 347 ; free virtual = 6387
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3428.461; parent = 2455.391; children = 973.070
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'Zed_v1_processing_system7_0_0' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+INFO: [Synth 8-6157] synthesizing module 'Zed_v1_processing_system7_0_0' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'processing_system7_v5_5_processing_system7' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [/home/skltmw05/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/home/skltmw05/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
 INFO: [Synth 8-6157] synthesizing module 'BIBUF' [/home/skltmw05/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:729]
 INFO: [Synth 8-6155] done synthesizing module 'BIBUF' (0#1) [/home/skltmw05/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:729]
 INFO: [Synth 8-6157] synthesizing module 'PS7' [/home/skltmw05/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:109424]
 INFO: [Synth 8-6155] done synthesizing module 'PS7' (0#1) [/home/skltmw05/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:109424]
-INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (0#1) [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
-WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:471]
-INFO: [Synth 8-6155] done synthesizing module 'Zed_v1_processing_system7_0_0' (0#1) [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'processing_system7_v5_5_processing_system7' (0#1) [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/hdl/verilog/processing_system7_v5_5_processing_system7.v:152]
+WARNING: [Synth 8-7071] port 'M_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'M_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_GP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_GP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_ACP_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_ARESETN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA0_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA1_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA2_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7071] port 'DMA3_RSTN' of module 'processing_system7_v5_5_processing_system7' is unconnected for instance 'inst' [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+WARNING: [Synth 8-7023] instance 'inst' of module 'processing_system7_v5_5_processing_system7' has 685 connections declared, but only 672 given [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:465]
+INFO: [Synth 8-6155] done synthesizing module 'Zed_v1_processing_system7_0_0' (0#1) [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/synth/Zed_v1_processing_system7_0_0.v:53]
 WARNING: [Synth 8-7129] Port ENET0_GMII_COL in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ENET0_GMII_CRS in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port ENET0_GMII_RX_DV in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
@@ -143,70 +143,70 @@ WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[2] in module processing_system7_v
 WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[1] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port FTMD_TRACEIN_ATID[0] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2536.449 ; gain = 457.707 ; free physical = 908 ; free virtual = 4819
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.516; parent = 1557.178; children = 211.311
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3509.516; parent = 2536.453; children = 973.062
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2536.355 ; gain = 457.707 ; free physical = 665 ; free virtual = 6466
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3509.430; parent = 2536.359; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2551.293 ; gain = 472.551 ; free physical = 3500 ; free virtual = 7413
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1757.093; parent = 1557.178; children = 236.545
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3524.359; parent = 2551.297; children = 973.062
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2551.199 ; gain = 472.551 ; free physical = 657 ; free virtual = 6458
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3524.273; parent = 2551.203; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2551.293 ; gain = 472.551 ; free physical = 3574 ; free virtual = 7486
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1757.093; parent = 1557.178; children = 236.545
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3524.359; parent = 2551.297; children = 973.062
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2551.199 ; gain = 472.551 ; free physical = 652 ; free virtual = 6453
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3524.273; parent = 2551.203; children = 973.070
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2557.230 ; gain = 0.000 ; free physical = 4731 ; free virtual = 8643
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2557.137 ; gain = 0.000 ; free physical = 618 ; free virtual = 6418
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc] for cell 'inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Zed_v1_processing_system7_0_0_propImpl.xdc].
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.gen/sources_1/bd/Zed_v1/ip/Zed_v1_processing_system7_0_0/Zed_v1_processing_system7_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Zed_v1_processing_system7_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Zed_v1_processing_system7_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2633.137 ; gain = 0.000 ; free physical = 4626 ; free virtual = 8558
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2633.043 ; gain = 0.000 ; free physical = 495 ; free virtual = 6297
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2633.137 ; gain = 0.000 ; free physical = 4622 ; free virtual = 8555
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2633.043 ; gain = 0.000 ; free physical = 492 ; free virtual = 6293
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/home/skltmw05/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.137 ; gain = 554.395 ; free physical = 4693 ; free virtual = 8635
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1870.246; parent = 1611.929; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.188; parent = 2601.125; children = 973.062
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.043 ; gain = 554.395 ; free physical = 373 ; free virtual = 6179
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.102; parent = 2601.031; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.137 ; gain = 554.395 ; free physical = 4685 ; free virtual = 8627
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1870.406; parent = 1612.118; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.188; parent = 2601.125; children = 973.062
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.043 ; gain = 554.395 ; free physical = 373 ; free virtual = 6179
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.102; parent = 2601.031; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/dont_touch.xdc, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.137 ; gain = 554.395 ; free physical = 4693 ; free virtual = 8638
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.020; parent = 1612.731; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.188; parent = 2601.125; children = 973.062
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.043 ; gain = 554.395 ; free physical = 359 ; free virtual = 6165
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.102; parent = 2601.031; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.137 ; gain = 554.395 ; free physical = 4694 ; free virtual = 8640
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1871.229; parent = 1612.945; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.188; parent = 2601.125; children = 973.062
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2633.043 ; gain = 554.395 ; free physical = 335 ; free virtual = 6143
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.102; parent = 2601.031; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -251,33 +251,33 @@ WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[4] in module processing_system7_v5_5
 WARNING: [Synth 8-7129] Port ENET1_GMII_RXD[3] in module processing_system7_v5_5_processing_system7 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2633.137 ; gain = 554.395 ; free physical = 4680 ; free virtual = 8631
-Synthesis current peak Physical Memory [PSS] (MB): peak = 1872.587; parent = 1614.312; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.188; parent = 2601.125; children = 973.062
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2633.043 ; gain = 554.395 ; free physical = 275 ; free virtual = 6086
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1732.331; parent = 1580.256; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3574.102; parent = 2601.031; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2685.121 ; gain = 606.379 ; free physical = 4372 ; free virtual = 8357
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2138.533; parent = 1885.313; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3658.188; parent = 2685.125; children = 973.062
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2686.027 ; gain = 607.379 ; free physical = 389 ; free virtual = 5633
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1946.354; parent = 1794.367; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3659.102; parent = 2686.031; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2704.129 ; gain = 625.387 ; free physical = 4357 ; free virtual = 8343
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2150.447; parent = 1897.228; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3677.195; parent = 2704.133; children = 973.062
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2706.035 ; gain = 627.387 ; free physical = 386 ; free virtual = 5629
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1958.183; parent = 1806.195; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3679.109; parent = 2706.039; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2720.145 ; gain = 641.402 ; free physical = 4353 ; free virtual = 8339
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2150.998; parent = 1897.778; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3693.211; parent = 2720.148; children = 973.062
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 387 ; free virtual = 5630
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1958.577; parent = 1806.590; children = 152.075
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -295,49 +295,49 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.546; parent = 1898.248; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 472 ; free virtual = 5716
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.136; parent = 1812.711; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.562; parent = 1898.264; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 465 ; free virtual = 5709
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.136; parent = 1812.723; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.593; parent = 1898.295; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 459 ; free virtual = 5704
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.136; parent = 1812.728; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.655; parent = 1898.357; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 537 ; free virtual = 5782
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.160; parent = 1812.759; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.655; parent = 1898.357; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 663 ; free virtual = 5908
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.160; parent = 1812.759; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.671; parent = 1898.373; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 650 ; free virtual = 5894
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.160; parent = 1812.759; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -359,28 +359,28 @@ Report Cell Usage:
 |4     |PS7   |     1|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.113 ; gain = 644.371 ; free physical = 4364 ; free virtual = 8352
-Synthesis current peak Physical Memory [PSS] (MB): peak = 2155.702; parent = 1898.404; children = 258.317
-Synthesis current peak Virtual Memory [VSS] (MB): peak = 3696.180; parent = 2723.117; children = 973.062
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.066 ; gain = 646.418 ; free physical = 633 ; free virtual = 5878
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1971.167; parent = 1812.787; children = 158.425
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 3698.141; parent = 2725.070; children = 973.070
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 80 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2723.113 ; gain = 562.527 ; free physical = 4418 ; free virtual = 8406
-Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2723.121 ; gain = 644.371 ; free physical = 4418 ; free virtual = 8406
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2725.066 ; gain = 564.574 ; free physical = 678 ; free virtual = 5923
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2725.074 ; gain = 646.418 ; free physical = 676 ; free virtual = 5921
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2723.121 ; gain = 0.000 ; free physical = 4522 ; free virtual = 8510
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2725.074 ; gain = 0.000 ; free physical = 790 ; free virtual = 6035
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2739.957 ; gain = 0.000 ; free physical = 4463 ; free virtual = 8452
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2741.910 ; gain = 0.000 ; free physical = 740 ; free virtual = 5985
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: 7ec691f6
+Synth Design complete, checksum: 9c5d4b38
 INFO: [Common 17-83] Releasing license: Synthesis
 30 Infos, 128 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2739.957 ; gain = 994.809 ; free physical = 4810 ; free virtual = 8799
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2741.910 ; gain = 996.824 ; free physical = 1086 ; free virtual = 6331
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.collectionResultDisplayLimit
-INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED_Jan_04_full/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/Zed_v1_processing_system7_0_0.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/skltmw05/workspace/vivado/SKL_ZED/SKL_ZED_Jan_04_full.runs/Zed_v1_processing_system7_0_0_synth_1/Zed_v1_processing_system7_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Zed_v1_processing_system7_0_0_utilization_synth.rpt -pb Zed_v1_processing_system7_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 28 11:22:42 2023...
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  2 13:46:28 2023...
